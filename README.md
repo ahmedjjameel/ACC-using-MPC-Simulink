@@ -1,13 +1,5 @@
 
 
-
-![Media3](https://user-images.githubusercontent.com/81799459/205294593-24c2a818-1ae6-42d8-8fae-95ef6216f078.gif)
-
-
-
-
-
-
 ### Adaptive Cruise Control System Using Model Predictive Control
 
 The Adaptive Cruise Control (ACC) system is a control system that modifies the speed of the ego car in response to conditions on the road. As in regular cruise control, the driver sets a desired speed for the car; in addition, the ACC system can slow the ego car down if there is another car moving slower in the lane in front of it.
@@ -111,23 +103,14 @@ Figure 5: Acceleration, Speed, Distance between two cars
 
 ### Conclusions
 
-•	In the first 3 seconds, to reach the driver-set velocity, the ego car accelerates at full throttle.
+1.	In the first 3 seconds, to reach the driver-set velocity, the ego car accelerates at full throttle.
+2.	From 3 to 13 seconds, the lead car accelerates slowly. As a result, to maintain a safe distance to the lead car, the ego car accelerates with a slower rate.
+3.	From 13 to 25 seconds, the ego car maintains the driver-set velocity, as shown in the Velocity plot. However, as the lead car reduces speed, the distance error starts approaching 0 after 20 seconds.
+4.	From 25 to 45 seconds, the lead car slows down and then accelerates again. The ego car maintains a safe distance from the lead car by adjusting its speed, as shown in the Distance plots.
+5.	From 45 to 56 seconds, the distance error is above 0. Therefore, the ego car achieves the driver-set velocity again.
+6.	From 56 to 76 seconds, the deceleration/acceleration sequence from the 25 to 45 second interval is repeated.
+7.	Throughout the simulation, the controller ensures that the actual distance between the two vehicles is greater than the set safe distance. When the actual distance is sufficiently large, then the controller ensures that the ego vehicle follows the driver-set velocity.
 
-•	From 3 to 13 seconds, the lead car accelerates slowly. As a result, to maintain a safe distance to the lead car, the ego car accelerates with a slower rate.
-
-
-•	From 13 to 25 seconds, the ego car maintains the driver-set velocity, as shown in the Velocity plot. However, as the lead car reduces speed, the distance error starts approaching 0 after 20 seconds.
-
-•	From 25 to 45 seconds, the lead car slows down and then accelerates again. The ego car maintains a safe distance from the lead car by adjusting its speed, as shown in the Distance plots.
-
-•	From 45 to 56 seconds, the distance error is above 0. Therefore, the ego car achieves the driver-set velocity again.
-
-•	From 56 to 76 seconds, the deceleration/acceleration sequence from the 25 to 45 second interval is repeated.
-
-•	Throughout the simulation, the controller ensures that the actual distance between the two vehicles is greater than the set safe distance. When the actual distance is sufficiently large, then the controller ensures that the ego vehicle follows the driver-set velocity.
-
-
-![acc](https://user-images.githubusercontent.com/81799459/205162710-f22de892-b4a6-4347-b8eb-f190d6801c05.gif)
 
 
 
