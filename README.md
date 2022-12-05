@@ -114,6 +114,9 @@ Figure 5: Acceleration, Speed, Distance between two cars
 
 #### References
 [1] https://de.mathworks.com/help/mpc/ug/adaptive-cruise-control-with-sensor-fusion.html
+
 [2] https://towardsdatascience.com/adaptive-cruise-control-with-sensor-fusion-within-matlab-simulink-294aeb24e6e0
+
+
 
 
