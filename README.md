@@ -118,7 +118,15 @@ Figure 5: Acceleration, Speed, Distance between two cars
 
 [2]	https://www.mathworks.com/help/mpc/ug/adaptive-cruise-control-using-model-predictive-controller.html
 
-[3]	Mehrdad Moradi, Bentley James Oakes, Mustafa Saraoğlu, Joachim Denil (2020) “Exploring Fault Parameter Space Using Reinforcement Learning-based Fault Injection”, 2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops
+[3]	Mehrdad Moradi, Bentley James Oakes, Mustafa Saraoğlu, Joachim Denil (2020) “Exploring Fault Parameter Space Using Reinforcement Learning-based Fault Injection”, 2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)
+
+[4]	https://scholarworks.calstate.edu/concern/projects/cf95jh631
+
+
+
+
+
+
 
 
 
