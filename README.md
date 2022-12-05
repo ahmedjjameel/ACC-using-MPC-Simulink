@@ -112,5 +112,8 @@ Figure 5: Acceleration, Speed, Distance between two cars
 7.	Throughout the simulation, the controller ensures that the actual distance between the two vehicles is greater than the set safe distance. When the actual distance is sufficiently large, then the controller ensures that the ego vehicle follows the driver-set velocity.
 
 
+#### References
+[1] https://de.mathworks.com/help/mpc/ug/adaptive-cruise-control-with-sensor-fusion.html
+[2] https://towardsdatascience.com/adaptive-cruise-control-with-sensor-fusion-within-matlab-simulink-294aeb24e6e0
 
 
