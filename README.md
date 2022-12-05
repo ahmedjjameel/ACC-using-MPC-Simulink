@@ -113,9 +113,13 @@ Figure 5: Acceleration, Speed, Distance between two cars
 
 
 #### References
-[1] https://de.mathworks.com/help/mpc/ug/adaptive-cruise-control-with-sensor-fusion.html
 
-[2] https://towardsdatascience.com/adaptive-cruise-control-with-sensor-fusion-within-matlab-simulink-294aeb24e6e0
+[1]	https://www.mathworks.com/help/driving/examples/adaptive-cruise-control-with-sensor-fusion.html
+
+[2]	https://www.mathworks.com/help/mpc/ug/adaptive-cruise-control-using-model-predictive-controller.html
+
+[3]	Mehrdad Moradi, Bentley James Oakes, Mustafa Saraoğlu, Joachim Denil (2020) “Exploring Fault Parameter Space Using Reinforcement Learning-based Fault Injection”, 2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)
+
 
 
 
